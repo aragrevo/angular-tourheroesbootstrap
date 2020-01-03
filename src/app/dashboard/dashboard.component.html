@@ -1,0 +1,7 @@
+<h3 class="text-center">Top Heroes</h3>
+<div class="btn-group d-flex justify-content-center">
+  <a *ngFor="let hero of heroes" class="btn btn-secondary m-1"
+      routerLink="/detail/{{hero.id}}">
+      {{hero.name}}
+  </a>
+</div>
