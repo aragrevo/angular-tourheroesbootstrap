@@ -1,0 +1,11 @@
+/* HeroesComponent's private CSS styles */
+
+.heroes li {
+  cursor: pointer;
+}
+
+.heroes .badge {
+  font-size: small;
+  color: white;
+  background-color:#405061;
+}
